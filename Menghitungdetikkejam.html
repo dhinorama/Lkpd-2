@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let detik = 5000;
+        jam = parseInt(detik / 3600)
+        menit = parseInt(detik % 3600 / 60)
+        detik = detik % 3600 % 60;
+        console.log(jam + "jam", +menit + "menit", +detik + "detik")
+    </script>
+</body>
+</html>
